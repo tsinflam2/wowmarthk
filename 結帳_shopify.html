@@ -1,0 +1,142 @@
+<!--CSS STYLE-->
+  <style>
+  #widnow{
+      width:100%;
+      border:solid 1px;
+  }
+
+  #title_bar{
+      background: #FEFEFE;
+      height: 25px;
+      width: 100%;
+  }
+  #button{
+      border:solid 1px;
+      width: 25px;
+      height: 23px;
+      float:right;
+      cursor:pointer;
+  }
+  #box{
+      height: 250px;
+      background: #DFDFDF;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 0.85em 1.5em;
+    font-size: 1.5em;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 0.62em;
+    box-shadow: 0 0.25em #999999; 
+  }
+
+  div#payment a:link, a:visited {
+     background-color: #f44336;
+     color: white;
+     padding: 14px 25px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     border: 3px solid black;
+     margin: 5px;
+     }
+   div#payment a:hover, a:active {
+   background-color: red;
+   border: 3px solid red;
+   }
+   b {
+   color:red;
+   }
+   hr.style-seven {
+   overflow: visible; /* For IE */
+   height: 30px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px 0 0 0;
+   border-radius: 15px;
+   }
+   hr.style-seven:before { /* Not really supposed to work, but does */
+   display: block;
+   content: "";
+   height: 30px;
+   margin-top: -31px;
+   border-style: solid;
+   border-color: black;
+   border-width: 0 0 1px 0;
+   border-radius: 15px;
+   }
+
+  </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script>
+    $( function() {
+      $( "#accordion" ).accordion({
+        heightStyle: "content",
+        header: "h3",
+        collapsible: true,
+        active: false
+      });
+    } );
+    </script>
+<br/><br/>
+   <p><font size="15pt" color="orange"><strong>如果是使用支付寶或現金或銀行轉帳的用家, 請按以下指示完成訂單! ↴</strong></font></p>
+  <div id="accordion">
+    <h3><font color="red"><strong>支付寶詳細步驟 按這裏</strong></font></h3>
+    <div>
+      <div id="payment" class="div">
+         如欲使用二維碼掃描支付，請用支付寶APPS掃描下面的二維碼並支付後，擷取<B>交易紀錄</B>快照，連同這頁左上角的<B>訂單號碼(例子: #1015)</B>，把快照經<a href="https://msng.link/o/?https%3A%2F%2Fu.wechat.com%2FIIeyE0UPMhv1ECO2h2SjWLw=wc">微信(或掃下面的QR碼或在你的微信新增wowmarthk為好友)</a>/<a href="https://m.me/wowmarthk">FB Messenger</a> / <a href ="mailto:info@smartchoicehk.com">電郵</a>把快照發送給我們，會有專人為你確認，安排出貨。)
+      </div>
+      <br /><br />
+      <hr class="style-seven">
+      如你正使用手機，可以長按下面QR碼，再按儲存圖片，然後使用支付寶APPS掃描:
+      <img src="https://cdn.shopify.com/s/files/1/0408/7283/7274/files/QRCODE_SMARTCHOICE.png?v=1593759614" alt="WOW Mart 支付寶QR Code">
+      <br /><br />
+      <hr class="style-seven">
+      <h1 align="center">支付寶付款 - 詳細說明:</h1>
+      <br />
+      <ul>
+         <li>步驟一(長按QR碼，再按儲存圖片): <img src="https://cdn.shopify.com/s/files/1/0408/7283/7274/files/alipay3.png?v=1594000672" alt="手機支付寶APPS付款步驟 - 長按以儲存QR碼"></li>
+         <br /><br />
+         <li>步驟二(打開支付寶APPS，按掃描): <img src="https://cdn.shopify.com/s/files/1/0408/7283/7274/files/alipay2.png?v=1594000672" alt="手機支付寶APPS付款步驟 - 打開支付寶APP按掃描"></li>
+         <br /><br />
+         <li>步驟三(按相簿以選取之前儲存的二維碼): <img src="https://cdn.shopify.com/s/files/1/0408/7283/7274/files/alipay1.png?v=1594000671" alt="手機支付寶APPS付款步驟 - 選取之前儲存的二維碼"></li>
+         <br /><br />
+         <li>步驟四(交易完成後，記緊把交易紀錄以營幕擷取快照功能取下)<img src="https://cdn.shopify.com/s/files/1/0408/7283/7274/files/transaction_record.png?v=1594002151" alt="手機支付寶APPS付款步驟 - 把交易紀錄以營幕擷取快照功能取下"></li>
+         <br /><br />
+         <li>
+            <div id="payment" class="div">步驟五(把顯示於這頁的<B>訂單號碼</B>連同<B>交易紀錄快照</B>，經<a href="https://msng.link/o/?https%3A%2F%2Fu.wechat.com%2FIIeyE0UPMhv1ECO2h2SjWLw=wc">微信(或掃下面的QR碼或在你的微信新增wowmarthk為好友)</a>/<a href="https://m.me/wowmarthk">FB Messenger</a> / <a href ="mailto:info@smartchoicehk.com">電郵</a>把快照發送給我們，會有專人為你確認，安排出貨。)
+            </div>
+            <br /><br />
+            <br />
+            <img src="https://cdn.shopify.com/s/files/1/0408/7283/7274/files/step7.png?v=1594003389" alt="手機支付寶APPS付款步驟 - 顯示於這頁的訂單號碼">
+            <br />
+            <img src="https://cdn.shopify.com/s/files/1/0408/7283/7274/files/step8.png?v=1594003389" alt="手機支付寶APPS付款步驟 - 把訂單號碼及交易紀錄快照一同發送到我們Facebook Messenger 收件匣">
+            <br />
+            <img src="https://cdn.shopify.com/s/files/1/0408/7283/7274/files/wechat_qrcode.jpg?v=1594194197" alt="手機支付寶APPS付款步驟 - 把訂單號碼及交易紀錄快照一同發送到我們Wechat微信號">
+         </li>
+         <li>步驟六(按一按首頁左上角人形圖標，你便可以查看付款狀態及發出貨狀態。)
+            <img src="https://cdn.shopify.com/s/files/1/0408/7283/7274/files/step9.png?v=1594003388" alt="手機支付寶APPS付款步驟 - 查看付款狀態及發出貨狀態">
+         </li>
+      </ul>
+    </div>
+    <h3><font color="red"><strong>現金或銀行轉帳詳細步驟 按這裏</strong></font></h3>
+    <div>
+      <p>請把這版頁面用Printscreen (Windows用戶)或Shift+CMD+4 (Mac用戶)把這版內容(要影到訂單編號)攝下，再把圖發送給我們，會有專人為你確認，安排出貨 :
+<div id="payment" class="div">
+<a href="https://msng.link/o/?https%3A%2F%2Fu.wechat.com%2FIIeyE0UPMhv1ECO2h2SjWLw=wc">微信(或掃下面的QR碼或在你的微信新增wowmarthk為好友)</a>/<a href="https://m.me/wowmarthk">FB Messenger</a> / <a href ="mailto:info@smartchoicehk.com">電郵</a>
+</div>
+</p>
+    </div>
+
+  </div>
+   
